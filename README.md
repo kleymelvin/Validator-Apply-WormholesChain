@@ -22,13 +22,13 @@
 
 - Install Dependencies
 
-```
+```md
 sudo apt update && sudo apt install apt-transport-https ca-certificates gnupg curl software-properties-common lsb-release -y
 ```
 
 - Install Docker ( Kalo belom )
 
-```
+```md
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin
 ```
 ## Create Wallet
@@ -42,7 +42,7 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && 
 
 ## Install Node
 
-```
+```md
 wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh && sudo bash wormholes_install.sh
 ```
 
@@ -54,5 +54,20 @@ wget -O wormholes_install.sh https://docker.wormholes.com/wormholes_install.sh &
 
 ## Install Tools Pantau
 
+```md
+wget -O cctv.sh https://raw.githubusercontent.com/Megumiiiiii/Lubang-Cacing/main/cctv.sh && chmod +x cctv.sh && ./cctv.sh
 ```
-wget 
+
+<p align="left"><img height="auto" width="auto" src="https://user-images.githubusercontent.com/98658943/217655359-b18018c2-b01b-459d-877b-68613f6ac7f6.png"</p>
+
+Tunggu sync, kalo mau close ngga pp. Pake `CTRL+C` . Mau cek lagi masuk ke directory yang ada file `cctv.sh` terus `./cctv.sh`
+
+`Block height of the whole network` = Blocks saat ini
+`Block height of the current peer` = Blocks mu
+
+## Register
+
+https://docs.google.com/forms/d/e/1FAIpQLSceUHMmS9i0x9Z4MR3PajR8mk-6NhXtPQecWUTvSGblOXYuPA/viewform?usp=sf_link
+
+**Tunggu SYNC dulu baru register, perlu send screenshot soalnya**
+
