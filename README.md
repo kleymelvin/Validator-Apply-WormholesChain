@@ -15,7 +15,7 @@
 |----------|---------------------|
 |CPU|4 Cores|
 |RAM|8 GB DDR4 RAM|
-|SSD|1 TB HDD|
+|SSD|1 TB |
 |OS|Ubuntu 16.04|
 
 ## Setup Awal
