@@ -29,6 +29,7 @@ sudo apt update && sudo apt install apt-transport-https ca-certificates gnupg cu
 - Install Docker ( Kalo belom )
 
 ```md
+sudo mkdir -m 0755 -p /etc/apt/keyrings
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - && sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin && sudo apt-get install docker-compose-plugin
 ```
 ## Create Wallet
