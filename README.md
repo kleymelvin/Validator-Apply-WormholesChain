@@ -1,7 +1,3 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/aXE4aGVPDs1pGcm0y4/giphy.gif" height="338" width="600"/>
-</div>
-
 <h1 align="center">Wormholes</h1>
 
 
@@ -64,6 +60,7 @@ wget -O cctv.sh https://raw.githubusercontent.com/Megumiiiiii/Lubang-Cacing/main
 Tunggu sync, kalo mau close ngga pp. Pake `CTRL+C` . Mau cek lagi masuk ke directory yang ada file `cctv.sh` terus `./cctv.sh`
 
 `Block height of the whole network` = Blocks saat ini
+
 `Block height of the current peer` = Blocks mu
 
 ## Register
